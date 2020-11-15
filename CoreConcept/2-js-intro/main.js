@@ -116,5 +116,16 @@ console.log(object1.getString());
 object1.setString(50);
 console.log(object1.getString());
 
+// Function as callback
+
+function callBackFunction(onClick) {
+  var somestring = "somestring";
+  onClick(somestring);
+}
+
+callBackFunction(function (param) {
+  console.log(param);
+});
+
 // Learn more at:
 //https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript
