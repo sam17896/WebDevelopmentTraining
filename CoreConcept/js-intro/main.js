@@ -115,3 +115,6 @@ object1.setString("someotherstring");
 console.log(object1.getString());
 object1.setString(50);
 console.log(object1.getString());
+
+// Learn more at:
+//https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript
