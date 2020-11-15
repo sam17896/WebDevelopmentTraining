@@ -37,7 +37,7 @@ $(window).ready(function () {
   //   .height(200)
   //   .text("loading....");
 
-  $(document.body).append(loadingDiv);
+  // $(document.body).append(loadingDiv);
   $.get("https://jsonplaceholder.typicode.com/posts", function (data, status) {
     if (status === "success") {
       // loadingDiv.hide();
