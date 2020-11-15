@@ -1,19 +1,25 @@
-const element = document.getElementById('box-1');
+console.log(document);
+
+const element = document.getElementById("box-1");
 
 element.innerHTML = `<p>Hello World</p>`;
-element.style.backgroundColor = "red"
+element.style.backgroundColor = "red";
 
-
-const elements = document.getElementsByClassName('border-1');
-
+const elements = document.getElementsByClassName("border-1");
 
 for (var i = 0; i < elements.length; i++) {
-    const element = elements.item(i);
-    element.innerHTML = `<p>Hello World</p>`;
-    element.style.backgroundColor = "red";
+  const element = elements.item(i);
+  element.innerHTML = `<p>Hello World</p>`;
+  element.style.backgroundColor = "red";
 }
 
 // element.innerHTML = `<p>Hello World</p>`;
 // element.style.backgroundColor = "red"
 
 console.log(elements);
+
+var div = document.createElement("div");
+div.style.width = "200px";
+div.style.height = "200px";
+div.style.backgroundColor = "green";
+document.body.appendChild(div);
